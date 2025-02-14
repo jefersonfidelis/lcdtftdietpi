@@ -22,3 +22,8 @@ sudo apt install python3-pip python3-dev libopenjp2-7 libtiff5 -y
 Instale as bibliotecas Python:
 pip3 install luma.lcd spidev pillow
 
+link para obter fontes:
+https://www.dafont.com/pt/ttf.d592
+
+
+
