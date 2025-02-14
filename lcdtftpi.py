@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 serial = spi(port=0, device=0, gpio_DC=24, gpio_RST=25)
 
 # Configura o display
-device = ili9341(serial, width=240, height=320, rotate=180)  # Ajuste conforme necessário
+device = ili9341(serial, width=320, height=240)  # Ajuste conforme necessario
 
 # Criando um canvas para desenhar
 img = Image.new("RGB", (device.width, device.height), "black")
