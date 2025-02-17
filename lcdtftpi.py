@@ -13,8 +13,12 @@ img = Image.new("RGB", (device.width, device.height), "black")
 draw = ImageDraw.Draw(img)
 
 # Escrevendo no display
-font = ImageFont.load_default()
-draw.text((50, 100), "Hello, DietPi!", font=font, fill="white")
+
+#font = ImageFont.load_default()
+font_path = "fonts/SIXTY.TTF"
+font = ImageFont.truetype(font_path, 24)
+
+draw.text((50, 100), "DietPi LCD Demo...", font=font, fill="red")
 
 # Envia a imagem para o display
 device.display(img)
