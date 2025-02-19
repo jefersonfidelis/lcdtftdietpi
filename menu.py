@@ -37,7 +37,7 @@ touch_device = None
 #        break
 
 # === CONFIGURAÇÃO DO MENU ===
-menu_options = ["Cadastro", "Config", "Acesso", "Sair"]
+menu_options = ["Cadastro", "Config", "Acesso", "Saidas"]
 selected_index = 0
 font = ImageFont.load_default()
 
