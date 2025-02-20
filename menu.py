@@ -11,9 +11,9 @@ serial = spi(port=0, device=0, gpio_DC=22, gpio_RST=27)
 device = ili9341(serial, width=320, height=240)
 
 # === CONFIG DOS BOTOES ===
-KEY1 = 6  # Cima
-KEY2 = 19  # Baixo
-KEY3 = 26  # Selecionar
+KEY1 = 18  # Cima
+KEY2 = 23  # Baixo
+KEY3 = 24  # Selecionar
 TOUCH_IRQ = 17  # Interrupcao do touchscreen (caso aplicavel)
 
 GPIO.setmode(GPIO.BCM)
